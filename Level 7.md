@@ -10,7 +10,7 @@ This page is largely empty except for two links. Clicking them doesn't do anythi
 
 This is a web server directory... and there are no user input fields on the page to potentially run commands in.
 
-However, if we note the URL paths after clicking the aforementioned links, 'Home' links to <http://natas7.natas.labs.overthewire.org/index.php?page=home> and 'About' links to <http://natas7.natas.labs.overthewire.org/index.php?page=about>. The query string is takes a single argument which is used by the server to render the page content.
+However, if we note the URL paths after clicking the aforementioned links, 'Home' links to `/index.php?page=home` and 'About' links to `/index.php?page=about`. The query string is takes a single argument which is used by the server to render the page content.
 
 We have the path to the password, so we simply need to enter it as a relative path in the query string: <http://natas7.natas.labs.overthewire.org/index.php?page=../../../../etc/natas_webpass/natas8>.
 
