@@ -5,6 +5,6 @@
 In my write-ups, I will be covering the nature of the exploit and how I arrived at the solution, along with any tools I used. If applicable, I will also include the concepts I used from COMP6443, as well as a way of preventing/mitigating the attack.
 
 Goals:
-- Gain knowledge of server-side exploits and record my learnings along the way
+- Gain knowledge of web-related exploits and record my learnings along the way
 - Apply concepts learnt from COMP6443 as well as in my own research
 - Develop both attacker and defender mindsets when solving challenges
